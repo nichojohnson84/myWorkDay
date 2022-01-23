@@ -33,7 +33,7 @@ textarea{
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid blue;
+  border-top: 1px solid navy;
 }
 
 .hour {
@@ -61,7 +61,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: navy;
   color: white;
 }
 
@@ -71,15 +71,23 @@ textarea{
 }
 
 .clearBtn {
-  font-size: 25px;
-  transition: all .3s ease-in-out;
+  display: flex;
+  justify-content: center;
   align-items: center;
+  font-size: 20px;
   background-color: red;
   color: white;
-  float: right;
+  align-content: center;
 }
 
-.clearBtn i:hover {
-  font-size: 25px;
-
+.clearBtn:hover {
+  cursor: pointer;
+    color: white;
+    box-shadow: 0 0.4rem 1.4rem 0 #151E3F;
+    transform: translateY(-0.1rem);
+}
+.clearBtn[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
 }
