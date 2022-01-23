@@ -2,7 +2,7 @@ var today = moment().format('dddd MMMM Do, YYYY, h:mm:ss a');
 var currentHour = parseInt(moment().format('H'));
 
 //Array that will go to local storage
-var savedEvents = ["", "", "", "", "", "", "", "" ];
+var savedEvents = ["", "", "", "", "", "", "", "", ""];
 
 $('#today').text(today);
 render();
