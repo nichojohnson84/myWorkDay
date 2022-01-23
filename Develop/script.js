@@ -39,7 +39,7 @@ $('.saveBtn').on('click', function(){
     render();
 })
 
-$('clear').on('click', function(){
+$('#clear').on('click', function(){
     var clear = confirm('Are you sure you want to clear your calendar?');
     if (clear === true){
         savedEvents = ["", "", "", "", "", "", "", "", "" ];
