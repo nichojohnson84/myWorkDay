@@ -29,6 +29,8 @@ The following animation demonstrates the application functionality:
 
 day planner demo
 
+Screenshot included in Images file within assets of the repository.
+
 Grading Requirements
 This challenge is graded based on the following criteria:
 
